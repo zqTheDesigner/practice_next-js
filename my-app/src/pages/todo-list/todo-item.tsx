@@ -2,12 +2,15 @@ import Checkbox from '@mui/material/Checkbox'
 
 const label = {}
 
-const TodoItem = () => {
+const TodoItem = ({ title = '', description = '' }) => {
   return (
     <>
       <div className='row'>
         <Checkbox {...label} />
-        Test item
+        <>
+          {title}
+          {description}
+        </>
       </div>
     </>
   )
