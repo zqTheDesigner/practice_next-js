@@ -18,4 +18,4 @@ const testTodoItem2: TodoItemI = {
 
 const testTodoItems: TodoItemI[] = [testTodoItem1, testTodoItem2]
 
-export { testTodoItems }
+export { testTodoItems, testTodoItem1 }
